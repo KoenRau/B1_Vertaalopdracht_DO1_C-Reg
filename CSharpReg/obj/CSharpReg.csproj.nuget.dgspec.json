@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\CSharpReg.csproj": {}
+    "C:\\Users\\koenr\\OneDrive\\Documents\\School\\BLOK B\\Windows\\C#\\B1 sharpreg\\CSharpReg\\CSharpReg.csproj": {}
   },
   "projects": {
-    "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\CSharpReg.csproj": {
+    "C:\\Users\\koenr\\OneDrive\\Documents\\School\\BLOK B\\Windows\\C#\\B1 sharpreg\\CSharpReg\\CSharpReg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\CSharpReg.csproj",
+        "projectUniqueName": "C:\\Users\\koenr\\OneDrive\\Documents\\School\\BLOK B\\Windows\\C#\\B1 sharpreg\\CSharpReg\\CSharpReg.csproj",
         "projectName": "CSharpReg",
-        "projectPath": "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\CSharpReg.csproj",
-        "packagesPath": "C:\\Users\\wjhul\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\B1_Vertaalopdracht_DO1_CSharpReg\\CSharpReg\\obj\\",
+        "projectPath": "C:\\Users\\koenr\\OneDrive\\Documents\\School\\BLOK B\\Windows\\C#\\B1 sharpreg\\CSharpReg\\CSharpReg.csproj",
+        "packagesPath": "C:\\Users\\koenr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\koenr\\OneDrive\\Documents\\School\\BLOK B\\Windows\\C#\\B1 sharpreg\\CSharpReg\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wjhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\koenr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
