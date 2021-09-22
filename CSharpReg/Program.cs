@@ -116,11 +116,12 @@ namespace CSharpReg
                 }
                 else if (keuze == "3")
                 {
-                    Console.WriteLine("======= DAG TOTALEN ========");
+                    Console.WriteLine("======== DAGTOTALEN ========");
                     Console.WriteLine("In kassa begin:   " + (bedragInKassaBegin));
                     Console.WriteLine("Verkocht:         " + (dagTotaal));
                     Console.WriteLine("Retour:           " + (dagTotaalTerug));
                     Console.WriteLine("In kassa:         " + (bedragInKassaBegin + dagTotaal - dagTotaalTerug));
+                    Console.WriteLine("============================");
                     Console.WriteLine("Druk op <ENTER> om door te gaan.");
                     Console.ReadLine();
                 }
