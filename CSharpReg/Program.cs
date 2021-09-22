@@ -114,10 +114,15 @@ namespace CSharpReg
                     string reden = Console.ReadLine();
                     dagTotaalTerug = terugTeGeven;
                 }
-                // TODO: If-statement corrigeren
-//                else if (keuze == 3)
+                else if (keuze == "3")
                 {
-                    // TODO: Afmaken
+                    Console.WriteLine("======= DAG TOTALEN ========");
+                    Console.WriteLine("In kassa begin:   " + (bedragInKassaBegin));
+                    Console.WriteLine("Verkocht:         " + (dagTotaal));
+                    Console.WriteLine("Retour:           " + (dagTotaalTerug));
+                    Console.WriteLine("In kassa:         " + (bedragInKassaBegin + dagTotaal - dagTotaalTerug));
+                    Console.WriteLine("Druk op <ENTER> om door te gaan.");
+                    Console.ReadLine();
                 }
             }
             Console.WriteLine("Hoeveel zit er nu in de kassa?");
