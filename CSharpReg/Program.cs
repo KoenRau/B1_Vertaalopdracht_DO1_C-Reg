@@ -17,6 +17,7 @@ namespace CSharpReg
             int aantalBonnen = 0;
             decimal dagTotaalTerug = 0;
 
+
             while (keuze != "9")
             {
                 Console.Clear();
@@ -104,10 +105,14 @@ namespace CSharpReg
                         }
                     }
                 }
-                // TODO: If-statement corrigeren
-//                else if (keuze == 2)
+                else if (keuze == "2")
                 {
-                    // TODO: Afmaken
+                    Console.WriteLine("<<<RETOUR>>>");
+                    Console.WriteLine("Bedrag van de originele bon: ");
+                    decimal terugTeGeven = decimal.Parse(Console.ReadLine());
+                    Console.WriteLine("Reden voor retour: ");
+                    string reden = Console.ReadLine();
+                    dagTotaalTerug = terugTeGeven;
                 }
                 // TODO: If-statement corrigeren
 //                else if (keuze == 3)
